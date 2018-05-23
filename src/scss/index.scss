@@ -59,6 +59,7 @@ body {
     background: url("../img/window_bgn.png") no-repeat 361px;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
   }
 }
 /****LEFT****/
@@ -324,6 +325,15 @@ body {
   }
 }
 
+/*==================================BLOCK 2=======================================*/
 
-
-
+.block1{
+  background: #ecfbfc ;
+  width: 100%;
+  .wrapper{
+    background: url("../img/window_bgn.png") no-repeat 361px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}

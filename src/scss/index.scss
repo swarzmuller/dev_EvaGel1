@@ -327,13 +327,46 @@ body {
 
 /*==================================BLOCK 2=======================================*/
 
-.block1{
-  background: #ecfbfc ;
+.block2{
+  background: #fff;;
   width: 100%;
   .wrapper{
-    background: #fff;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    padding: 85px 10px 0px;
+    line-height: 1;
+    flex-direction: column;
+    h1{
+      color: #1e1e1e;
+      text-align: center;
+      font-family: $Roboto_Black;
+      font-size: 45px;
+      margin-bottom: 25px;
+    }
+    .block2__wikipedia{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      img{
+        width: 109px;
+        height: 124px;
+      }
+      .block2__wikipedia__text{
+        width: 82%;
+          p{
+            margin-bottom: 19px;
+            font-size: 18px;
+            color: #787878;
+            line-height: 1.5;
+            .wiki_bold{
+              font-size: 20px;
+              font-family: $Roboto_Medium;
+              color: #1e1e1e;
+            }
+          }
+      }
+    }
   }
 }

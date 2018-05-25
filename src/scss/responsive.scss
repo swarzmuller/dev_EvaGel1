@@ -18,6 +18,89 @@
     width: 109px;
     left: 58px;
   }
+  .block2__list .left ul li,
+  .block2__list .right ul li{
+    font-size: 18px;
+  }
+  .block2__list .left p,
+  .block2__list .right p{
+    font-size: 20px;
+  }
+  .block2 .wrapper h1 :before{
+    display: none;
+  }
+  .block3{
+    overflow: visible;
+  }
+  .block3__courses .right{
+    right: 0;
+    height: 383px;
+    width: 309px;
+    bottom: -30px;
+  }
+  .block3__courses .left{
+    left: 0;
+    height: 383px;
+    width: 309px;
+    bottom: -30px;
+  }
+  .block3__courses .center .button__evagel{
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .block3 .wrapper{
+    padding: 76px 10px 31px;
+  }
+  .block3__courses .center .block3__center__checks .item{
+    margin: 0;
+  }
+  .block3__courses .right p{
+    right: 21px;
+  }
+  .block4__usage .block4__usage__items .item:after{
+    display: none;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    font-size: 15px;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    height: 48px;
+    width: 214px;
+  }
+  .block4__usage .block4__usage__items .item .show{
+    height: 112px;
+  }
+  .block5__publish .right{
+    width: 55%;
+  }
+  .block5__publish .right .show{
+    height: auto;
+  }
+  .block5__publish .right .massage{
+    width: auto;
+  }
+  .pro1, .pro2, .pro3, .pro4 {
+    width: 360px;
+  }
+  .block6__focus .right .block6__right__text {
+    width: 360px;
+  }
+  .block6__focus .center {
+    margin-left: 14px;
+  }
+  .block6__diagramm .block6__diagramm__inner .line_x p {
+    font-size: 14px;
+  }
+  .block8__usage__items .item:after {
+    display: none;
+  }
+  .block9__usage__items .item {
+    width: 263px;
+  }
+  .block10__usage__items .item {
+    margin: 0 20px;
+  }
 }
 
 @media screen and (max-width: 992px){
@@ -93,31 +176,264 @@
   .block1__left__pack .block1__left__pack__sashe{
     top: 0;
   }
+  .block2__list .left ul li, .block2__list .right ul li {
+    font-size: 13px;
+  }
+  .block2__list .left p, .block2__list .right p {
+    font-size: 15px;
+  }
+  .block3__courses .left,
+  .block3__courses .right{
+    display: none;
+  }
+  .block4__usage .block4__usage__items .item img {
+    height: 109px;
+  }
+  .block4__usage .block4__usage__items .item{
+    width: 176px;
+  }
+  .block4__usage .block4__usage__items .item .text-container {
+    width: 171px;
+  }
+  .block5__publish .left {
+    height: 649px;
+    width: 298px;
+  }
+  .block5__publish .right{
+    width: 58%;
+  }
+  .block5__publish .right .massage:after {
+    right: 6px;
+    top: 72px;
+  }
+  .block6__focus {
+    flex-wrap: wrap;
+  }
+  .block6__focus .left {
+    width: 100%;
+  }
+  .block6__diagramm .block6__diagramm__inner .line_x {
+    flex-direction: column;
+  }
+  .block6__diagramm .block6__diagramm__inner .line_x p {
+    margin-top: 5px;
+  }
+  .block7__course .left .left__img .left__img__bottom {
+    width: 195px;
+    height: 237px;
+  }
+  .block7__course .left .left__img .left__img__top {
+    width: 149px;
+    height: 56px;
+    margin-left: 41px;
+  }
+  .block7__course .right .right__img .right__img__bottom {
+    width: 195px;
+    height: 237px;
+  }
+  .block7__course .right .right__img .right__img__top {
+    width: 149px;
+    height: 56px;
+    margin-left: 41px;
+  }
+  .block7__course .right {
+    width: 56%;
+  }
+  .block8__usage__items .item {
+    width: 184px;
+  }
+  .block8__usage__items .item .text-container {
+    width: 184px;
+    font-size: 15px;
+  }
+  .block8__usage__items .item h4 {
+    font-size: 17px;
+  }
+  .block9__usage__items .item .text-container {
+    font-size: 15px;
+    width: 200px;
+  }
+  .block9__usage__items .item {
+    width: 200px;
+    margin: 0 15px;
+  }
+  .block9__usage__items .item h5 {
+    font-size: 14px;
+  }
+  .block9__usage__items .item .show {
+    height: 582px;
+  }
+  .block10__usage__items .item {
+    width: 248px;
+    margin: 0;
+  }
+  .block10__usage__items .item img {
+    max-width: 180px;
+  }
+  .block10__usage__items .item h4 {
+    font-size: 17px;
+  }
+  .block10__usage__items .item .text-container-n {
+    width: 248px;
+    font-size: 15px;
+  }
 }
 
-@media screen and (max-width: 767px){
-  .block1 .wrapper{
+@media screen and (max-width: 767px) {
+  .block1 .wrapper {
     flex-direction: column;
     align-items: center;
   }
-  .block1__left{
+  .block1__left {
     width: 470px;
   }
-  .block1__left__pack .button__evagel{
+  .block1__left__pack .button__evagel {
     right: 0;
     left: 86px;
     bottom: -71px;
   }
-  .block1__left__title{
+  .block1__left__title {
     margin-top: 0;
   }
-  .block1__right{
+  .block1__left__title h2 {
+    margin-top: 0px;
+  }
+  .block1__right {
     width: 300px;
     margin-top: 79px;
   }
   .block1__left__pack .block1__left__pack__inner {
     top: 0;
     left: 37px;
+  }
+  .block2 {
+    padding-bottom: 0px;
+  }
+  .block2 .wrapper {
+    padding: 35px 10px 0px;
+  }
+  .block2 .wrapper h1 {
+    font-size: 28px;
+  }
+  .block2__wikipedia .block2__wikipedia__text p {
+    font-size: 16px;
+  }
+  .block2__wikipedia {
+    flex-direction: column;
+  }
+  .block2__wikipedia .block2__wikipedia__text {
+    width: auto;
+  }
+  .block2__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .block2__list .left,
+  .block2__list .right {
+    width: 400px;
+    margin-bottom: 79px;
+  }
+  .block3 .wrapper h1 {
+    font-size: 28px;
+  }
+  .block3 .wrapper {
+    padding: 21px 10px 46px;
+  }
+  .block4 .wrapper h1 {
+    font-size: 28px;
+  }
+  .block4__usage .block4__usage__items {
+    flex-wrap: wrap;
+  }
+  .block4__usage .block4__usage__items .item {
+    width: 45%;
+    margin: 7px;
+  }
+  .block5__publish .left {
+    display: none;
+  }
+  .block5__publish .right {
+    width: auto;
+  }
+  .block5 .wrapper h1 {
+    font-size: 28px;
+  }
+  .block6 .wrapper h1 {
+    font-size: 28px;
+  }
+  .block6__focus .center {
+    width: 161px;
+    height: 389px;
+    background-size: contain;
+    margin-left: 0;
+    margin-top: 27px;
+  }
+  .block6__focus .right .block6__right__text {
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    width: 217px;
+  }
+  .pro1, .pro2, .pro3, .pro4 {
+    width: 250px;
+  }
+  .block7__course {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block7__course .left,
+  .block7__course .right {
+    width: 100%;
+  }
+  .block7 .wrapper h1 {
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 28px !important;
+  }
+  .block8__usage__items {
+    flex-wrap: wrap;
+  }
+  .block8__usage__items .item {
+    width: 50%;
+  }
+  .block8__usage__items .item .show {
+    height: 259px;
+  }
+  .block9__usage__items {
+    flex-direction: column;
+  }
+  .block9__usage__items .item {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .block9__usage__items .item .text-container {
+    width: 100%;
+  }
+  .block9__usage__items .item .text-container {
+    height: 86px;
+  }
+  .block9__usage__items .item .show {
+    height: auto;
+  }
+  .popup {
+    width: 300px !important;
+  }
+  input.button__evagel {
+    width: 101px !important;
+  }
+  .block10__usage__items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block10__usage__items .item .text-container-n {
+    width: 100%;
+    font-size: 15px;
+  }
+  .block10__usage__items .item {
+    width: 100%;
+    margin: 20px;
   }
 }
 
@@ -155,6 +471,7 @@
   }
   .block1__left__title h2{
     font-size: 29px;
+    margin-top: 0;
   }
   .block1__left__title p {
     font-size: 12px;
@@ -166,5 +483,112 @@
   }
   .block1__right .left li:after, .block1__right .right li:before {
     top: 21px;
+  }
+  .block2__list .left,
+  .block2__list .right{
+    width: auto;
+  }
+  .block2__list .left ul, .block2__list .right ul{
+    padding: 0px 0px 0px 29px;
+  }
+  .block2__list .left p, .block2__list .right p{
+    padding: 0px 0px 0px 29px;
+  }
+  .block3__around .button__evagel{
+    width: 300px;
+    font-size: 17px;
+  }
+  .block3__courses .center{
+    width: auto;
+  }
+  .block3__courses .center .block3__center__checks{
+    left: 0;
+    flex-direction: column;
+
+  }
+  .block3__courses .center .block3__center__checks .item{
+    width: auto;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    font-size: 14px;
+  }
+  .block3__courses .center .block3__center__packs .right__pack {
+    height: 224px;
+    width: 151px;
+  }
+  .block3__courses .center .block3__center__packs .left__pack {
+    height: 230px;
+    width: 157px;
+  }
+  .block3__courses .center .block3__center__checks .item:before{
+    left: -33px;
+    top: -5px;
+  }
+  .block3__courses .center .block3__center__packs .left__pack .tooltip p{
+    height: 45px;
+    width: 113px;
+    padding-left: 5px;
+    right: -1px;
+    top: 20px;
+  }
+  .block3__courses .center .block3__center__packs .right__pack .tooltip p{
+    height: 46px;
+    width: 101px;
+    padding-left: 17px;
+    right: -61px;
+    top: 145px;
+  }
+  .block4__usage .block4__usage__items {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .block4__usage .block4__usage__items .item {
+    flex-direction: row;
+    width: auto;
+  }
+  .block4__usage .block4__usage__items .item img {
+    width: 135px;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    font-size: 13px;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    height: 38px;
+  }
+  .block4__usage .block4__usage__items .item .show{
+    height: auto;
+  }
+  .block6__focus .center {
+    display: none;
+  }
+  .block6__focus .right .block6__right__text {
+    width: 100%;
+  }
+  .pro1, .pro2, .pro3, .pro4 {
+    width: 100%;
+  }
+  .block6__diagramm .block6__diagramm__inner .line_x p {
+    font-size: 10px;
+    margin-left: 32px;
+  }
+  .block7__course .left, .block7__course .right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block8__usage__items {
+    flex-direction: column;
+  }
+  .block8__usage__items .item {
+    width: 100%;
+  }
+  .block8__usage__items .item .text-container {
+    width: 100%;
+  }
+  .block8__usage__items .item .text-container {
+    height: 88px;
+  }
+  .block8__usage__items .item .show {
+    height: auto;
   }
 }

@@ -18,6 +18,67 @@
     width: 109px;
     left: 58px;
   }
+  .block2__list .left ul li,
+  .block2__list .right ul li{
+    font-size: 18px;
+  }
+  .block2__list .left p,
+  .block2__list .right p{
+    font-size: 20px;
+  }
+  .block2 .wrapper h1 :before{
+    display: none;
+  }
+  .block3{
+    overflow: visible;
+  }
+  .block3__courses .right{
+    right: 0;
+    height: 383px;
+    width: 309px;
+    bottom: -30px;
+  }
+  .block3__courses .left{
+    left: 0;
+    height: 383px;
+    width: 309px;
+    bottom: -30px;
+  }
+  .block3__courses .center .button__evagel{
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+  .block3 .wrapper{
+    padding: 76px 10px 31px;
+  }
+  .block3__courses .center .block3__center__checks .item{
+    margin: 0;
+  }
+  .block3__courses .right p{
+    right: 21px;
+  }
+  .block4__usage .block4__usage__items .item:after{
+    display: none;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    font-size: 15px;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    height: 48px;
+  }
+  .block4__usage .block4__usage__items .item .show{
+    height: 112px;
+  }
+  .block5__publish .right{
+    width: 525px;
+  }
+  .block5__publish .right .show{
+    height: auto;
+  }
+  .block5__publish .right .massage{
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 992px){
@@ -93,6 +154,29 @@
   .block1__left__pack .block1__left__pack__sashe{
     top: 0;
   }
+  .block2__list .left ul li, .block2__list .right ul li {
+    font-size: 13px;
+  }
+  .block2__list .left p, .block2__list .right p {
+    font-size: 15px;
+  }
+  .block3__courses .left,
+  .block3__courses .right{
+    display: none;
+  }
+  .block4__usage .block4__usage__items .item img {
+    height: 109px;
+  }
+  .block4__usage .block4__usage__items .item{
+    width: 176px;
+  }
+  .block5__publish .left {
+    height: 649px;
+    width: 298px;
+  }
+  .block5__publish .right{
+    width: 417px;
+  }
 }
 
 @media screen and (max-width: 767px){
@@ -118,6 +202,59 @@
   .block1__left__pack .block1__left__pack__inner {
     top: 0;
     left: 37px;
+  }
+  .block2{
+    padding-bottom: 0px;
+  }
+  .block2 .wrapper{
+    padding: 35px 10px 0px;
+  }
+  .block2 .wrapper h1{
+    font-size: 28px;
+  }
+  .block2__wikipedia .block2__wikipedia__text p{
+    font-size: 16px;
+  }
+  .block2__wikipedia{
+    flex-direction: column;
+  }
+  .block2__wikipedia .block2__wikipedia__text{
+    width: auto;
+  }
+  .block2__list{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .block2__list .left,
+  .block2__list .right{
+    width: 400px;
+    margin-bottom: 79px;
+  }
+  .block3 .wrapper h1{
+    font-size: 28px;
+  }
+  .block3 .wrapper {
+    padding: 21px 10px 46px;
+  }
+  .block4 .wrapper h1{
+    font-size: 28px;
+  }
+  .block4__usage .block4__usage__items{
+    flex-wrap: wrap;
+  }
+  .block4__usage .block4__usage__items .item{
+    width: 45%;
+    margin: 7px;
+  }
+  .block5__publish .left{
+    display: none;
+  }
+  .block5__publish .right{
+    width: auto;
+  }
+  .block5 .wrapper h1{
+    font-size: 28px;
   }
 }
 
@@ -166,5 +303,80 @@
   }
   .block1__right .left li:after, .block1__right .right li:before {
     top: 21px;
+  }
+  .block2__list .left,
+  .block2__list .right{
+    width: auto;
+  }
+  .block2__list .left ul, .block2__list .right ul{
+    padding: 0px 0px 0px 29px;
+  }
+  .block2__list .left p, .block2__list .right p{
+    padding: 0px 0px 0px 29px;
+  }
+  .block3__around .button__evagel{
+    width: 300px;
+    font-size: 17px;
+  }
+  .block3__courses .center{
+    width: auto;
+  }
+  .block3__courses .center .block3__center__checks{
+    left: 0;
+    flex-direction: column;
+
+  }
+  .block3__courses .center .block3__center__checks .item{
+    width: auto;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    font-size: 14px;
+  }
+  .block3__courses .center .block3__center__packs .right__pack {
+    height: 224px;
+    width: 151px;
+  }
+  .block3__courses .center .block3__center__packs .left__pack {
+    height: 230px;
+    width: 157px;
+  }
+  .block3__courses .center .block3__center__checks .item:before{
+    left: -33px;
+    top: -5px;
+  }
+  .block3__courses .center .block3__center__packs .left__pack .tooltip p{
+    height: 45px;
+    width: 113px;
+    padding-left: 5px;
+    right: -1px;
+    top: 20px;
+  }
+  .block3__courses .center .block3__center__packs .right__pack .tooltip p{
+    height: 46px;
+    width: 101px;
+    padding-left: 17px;
+    right: -61px;
+    top: 145px;
+  }
+  .block4__usage .block4__usage__items {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .block4__usage .block4__usage__items .item {
+    flex-direction: row;
+    width: auto;
+  }
+  .block4__usage .block4__usage__items .item img {
+    width: 135px;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    font-size: 13px;
+  }
+  .block4__usage .block4__usage__items .item .text-container{
+    height: 38px;
+  }
+  .block4__usage .block4__usage__items .item .show{
+    height: auto;
   }
 }
